@@ -183,7 +183,7 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		m.width = msg.Width
 		m.height = msg.Height
 		paneWidth = min(msg.Width, 80) / 2
-		paneHeight = min(msg.Height, 20) - 4
+		paneHeight = min(msg.Height, 24) - 4
 	}
 	return m, nil
 }
