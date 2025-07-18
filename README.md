@@ -62,7 +62,8 @@ termlock/
 ├── internal/
 │   ├── models/          # PasswordEntry struct
 │   ├── storage/         # DB import/export logic
-│   └── styles/          # UI styling
+│   ├── styles/          # UI styling
+│   └── tui/             # UI components
 ├── go.mod
 └── README.md
 ```
